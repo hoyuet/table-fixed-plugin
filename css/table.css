@@ -1,0 +1,23 @@
+body,ul,li,div,table,tbody,td,tr{ padding:0; margin:0;}
+body{font-size:12px;}
+li{ list-style:none;}
+#mytable{
+	width: 900px;
+	margin: 100px auto;
+	border: 1px solid #333;
+
+}
+.title{
+	text-align: center;
+	color: red;
+}
+.iTable_div{width:100%;overflow:hidden; position:relative;z-index:99999;}
+.iLeft_tit{ text-align:center; width:130px;border-left:1px solid #ccc;border-right:1px solid #ccc; position:absolute; left:0; top:0; background:#ecf4fd; box-sizing:border-box;overflow:hidden; padding-top:18px;}
+.iLeft_tit li{height:18px; border-bottom:1px solid #ccc; box-sizing:border-box;}
+.iTop_tit{position:absolute; height:18px; top:0; left:129px;z-index:10; background:#c4def7;width:86.8%; overflow:hidden;}
+.iTop_tit ul{width:2000%;overflow:hidden; box-sizing:border-box;border-left:none; text-align:center; border:1px solid #ccc; height:18px;border-left:none;}
+.iTop_tit li{float:left; width:130px; border-left:1px solid #ccc; box-sizing:border-box; height:18px; }
+.itable_content{width:88%;padding-left:129px; padding-top:18px;overflow:auto;}
+.itable{border-spacing:0;table-layout:fixed; overflow: auto;}
+.itable td{ width:130px; height:18px;box-sizing:border-box; text-align:center;border-left:1px solid #ccc; border-bottom:1px solid #ccc;}
+#iFixed_li{position:absolute; left:0; top:0; background:#c4def7;z-index:200; width:130px; height:18px;border-top:1px solid #ccc; }
